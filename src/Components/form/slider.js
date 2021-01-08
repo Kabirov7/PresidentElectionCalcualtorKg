@@ -12,6 +12,7 @@ const useStyles = makeStyles({
 	text: {
 		fontSize: "20px",
 		fontFamily: "Roboto",
+		lineHeight: "inherit",
 		fontWeight: "700",
 	},
 	supportText: {
