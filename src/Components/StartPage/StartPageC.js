@@ -70,28 +70,28 @@ export default class StartPageC extends Component {
 
 		let content = (
 			<div className={"content"}>
-				<Typography className={"contentText"}>Сиз {this.state.answers.candidate} абдан популярдуу жана биринчи турда эле
+				<p className={"contentText"}>Сиз {this.state.answers.candidate} абдан популярдуу жана биринчи турда эле
 					жеңишке жете алат деп эсептейсиз, бирок сиз анын жеңишин каалабайсыз.
-				</Typography>
-				<Typography className={"contentText"}>
+				</p>
+				<p className={"contentText"}>
 					Сиз жактырбаган талапкер президенттик орун үчүн катуу күрөшүүсү үчүн эмне кылыш керек? Бул күрөштү жок дегенде
 					экинчи турга чейин кантип созсо болот?
-				</Typography>
-				<Typography className={"contentText"}>
+				</p>
+				<p className={"contentText"}>
 					О, президенттик шайлоонун экинчи туру Кыргызстандын тарыхында укмуштуудай прецедент болот! Бизден <a
 					href="https://kloop.kg/blog/2017/10/26/samara_elections_kg/" target="_blank"> бул мүмкүнчүлүктү 2017-жылы
 					уурдап алышкан
 				</a>, ошондуктан келгиле бул жолу аны алдырып жибербейли!
-				</Typography>
-				<Typography className={"contentText"}>Ал үчүн {this.state.answers.candidate} 50 пайыздан аз добушка ээ болушу
+				</p>
+				<p className={"contentText"}>Ал үчүн {this.state.answers.candidate} 50 пайыздан аз добушка ээ болушу
 					керек. Буга кантип жетсе болот? Бул үчүн шайлоочулардын жарымынан көбү калган талапкерлерге же бардык
 					талапкерлерге каршы добуш берүүсү гана жетиштүү.
-				</Typography>
-				<Typography className={"contentText"}>
+				</p>
+				<p className={"contentText"}>
 					<b>
 						МААНИЛҮҮ!
-					</b> Ошол эле кезде сөзсүз түрдө участокко барып, добуш берүү керек!</Typography>
-				<Typography className={"contentText"}>
+					</b> Ошол эле кезде сөзсүз түрдө участокко барып, добуш берүү керек!</p>
+				<p className={"contentText"}>
 					<b>
 						Кыргыз Республикасынын президентин жана Кыргыз Республикасынын Жогорку Кеңешинин депутаттарын шайлоо жөнүндө
 						мыйзамы, 55-берене, 3-пункт;
@@ -99,7 +99,7 @@ export default class StartPageC extends Component {
 					шайлоого катышкан
 				</b> бардык шайлоочулардын добуштарынын жарымынан көбүн алган талапкер Президенттин кызмат ордуна шайланды деп
 					эсептелет».
-				</Typography>
+				</p>
 
 				<Slider_ returnRange={this.returnRange} candidate={this.state.answers.candidate}/>
 				<div className={"resultContainer"}>
