@@ -53,10 +53,12 @@ export default class StartPageC extends Component {
 	agree = () => {
 		let content = (
 			<div>
-				<Typography style={{marginTop: "20px"}}>
+				<p className={"contentText"}>
+
 					Эмне демекчибиз, сиз эң белгилүү талапкердин жеңишин каалайт экенсиз, демек сиз эч кабатырланбай эле койсоңуз
 					болот. Участокко барып, добуш бериңиз, сиздин ага толук укугуңуз бар.
-				</Typography>
+				</p>
+
 			</div>
 		)
 
@@ -107,16 +109,17 @@ export default class StartPageC extends Component {
 						Шайлоого келип бергендердин саны ушундай болгондо мынча адам добуш берет:
 					</p>
 					<span>
-						{Math.ceil(3544403 * this.state.range / 100)}
-					</span>
+		{Math.ceil(3544403 * this.state.range / 100)}
+		</span>
 				</div>
 				<div className={"resultContainer"}>
 					<p>
-						{this.state.answers.candidate} биринчи турда жеңишке жетпеши үчүн башка талапкерлер үчүн мынча добуш  керектелет:
+						{this.state.answers.candidate} биринчи турда жеңишке жетпеши үчүн башка талапкерлер үчүн мынча добуш
+						керектелет:
 					</p>
 					<span>
-						{Math.ceil((Math.ceil(3544403 * this.state.range / 100)) / 2 + 1)}
-					</span>
+		{Math.ceil((Math.ceil(3544403 * this.state.range / 100)) / 2 + 1)}
+		</span>
 				</div>
 			</div>
 		)
