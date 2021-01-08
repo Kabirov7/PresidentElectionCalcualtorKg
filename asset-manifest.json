@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PresidentElectionCalcualtorKg/static/css/main.b1a08c32.chunk.css",
+    "main.js": "/PresidentElectionCalcualtorKg/static/js/main.6757beef.chunk.js",
+    "main.js.map": "/PresidentElectionCalcualtorKg/static/js/main.6757beef.chunk.js.map",
+    "runtime-main.js": "/PresidentElectionCalcualtorKg/static/js/runtime-main.5da677af.js",
+    "runtime-main.js.map": "/PresidentElectionCalcualtorKg/static/js/runtime-main.5da677af.js.map",
+    "static/js/2.1bd1abff.chunk.js": "/PresidentElectionCalcualtorKg/static/js/2.1bd1abff.chunk.js",
+    "static/js/2.1bd1abff.chunk.js.map": "/PresidentElectionCalcualtorKg/static/js/2.1bd1abff.chunk.js.map",
+    "static/js/3.f61da77e.chunk.js": "/PresidentElectionCalcualtorKg/static/js/3.f61da77e.chunk.js",
+    "static/js/3.f61da77e.chunk.js.map": "/PresidentElectionCalcualtorKg/static/js/3.f61da77e.chunk.js.map",
+    "index.html": "/PresidentElectionCalcualtorKg/index.html",
+    "static/css/main.b1a08c32.chunk.css.map": "/PresidentElectionCalcualtorKg/static/css/main.b1a08c32.chunk.css.map",
+    "static/js/2.1bd1abff.chunk.js.LICENSE.txt": "/PresidentElectionCalcualtorKg/static/js/2.1bd1abff.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/PresidentElectionCalcualtorKg/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5da677af.js",
+    "static/js/2.1bd1abff.chunk.js",
+    "static/css/main.b1a08c32.chunk.css",
+    "static/js/main.6757beef.chunk.js"
+  ]
+}
