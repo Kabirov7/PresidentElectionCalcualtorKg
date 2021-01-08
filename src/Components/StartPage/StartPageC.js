@@ -104,7 +104,7 @@ export default class StartPageC extends Component {
 				<Slider_ returnRange={this.returnRange} candidate={this.state.answers.candidate}/>
 				<div className={"resultContainer"}>
 					<p>
-						Вот сколько человек проголосуют при такой явке:
+						Шайлоого келип бергендердин саны ушундай болгондо мынча адам добуш берет:
 					</p>
 					<span>
 						{Math.ceil(3544403 * this.state.range / 100)}
@@ -112,8 +112,7 @@ export default class StartPageC extends Component {
 				</div>
 				<div className={"resultContainer"}>
 					<p>
-						Сколько нужно голосов за других кандидатов,
-						чтобы {this.state.answers.candidate} не {(male == "а") ? "выиграла" : "выиграл"} в первом туре:
+						{this.state.answers.candidate} биринчи турда жеңишке жетпеши үчүн башка талапкерлер үчүн мынча добуш  керектелет:
 					</p>
 					<span>
 						{Math.ceil((Math.ceil(3544403 * this.state.range / 100)) / 2 + 1)}
