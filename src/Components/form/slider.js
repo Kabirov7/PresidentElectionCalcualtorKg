@@ -49,7 +49,8 @@ export default function Slider_(props) {
 			<Grid container spacing={2} alignItems="center">
 				<Grid item xs>
 					<Slider
-						valueLabelDisplay="auto" aria-label="pretto slider"
+						style={{marginTop:30}}
+						valueLabelDisplay="on" aria-label="pretto slider"
 						value={typeof value === 'number' ? value : 0}
 						onChange={handleSliderChange}
 					/>
