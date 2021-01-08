@@ -10,8 +10,8 @@ const useStyles = makeStyles({
 		width: 42,
 	},
 	text: {
-		fontSize: "18px",
-		fontFamily: "PT Serif",
+		fontSize: "20px",
+		fontFamily: "Roboto",
 		fontWeight: "700",
 	},
 	supportText: {

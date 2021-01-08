@@ -13,9 +13,9 @@ const useStyles = makeStyles((theme) => ({
 		maxWidth: 300
 	},
 	question:{
-		fontFamily: "PT Serif",
+		fontFamily: "Roboto",
 		fontWeight:"700",
-		fontSize: 20
+		fontSize: 22
 	}
 }));
 export default function SelectBox(props){
